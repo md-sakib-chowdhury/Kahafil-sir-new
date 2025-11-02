@@ -40,11 +40,12 @@ export default function Navbar() {
                     <h1 className="text-[6rem] md:text-[8rem] font-black leading-none tracking-tight absolute top-[-450%] text-black">
                         KAHAFIL
                     </h1>
-                    <h2 className="text-4xl font-bold text-black mt-4 absoulate top-[-5%]">2K25</h2>
+                    <h2 className="text-4xl font-bold text-black mt-4 absoulate top-[-4%]">2K25</h2>
 
                     {/* PORTFOLIO Line (Rotated Text) */}
                     <p className="rotate-[-90deg] origin-left text-black text-base tracking-[0.5em] absolute left-[4px] bottom-[-120px]">
-                        /PORTFOLIO----------
+                        /PORTFOLIO
+                        <span className="border h-50%"></span>
                     </p>
 
                     {/* SCROLL DOWN — Fixed at Bottom of Left Section */}
